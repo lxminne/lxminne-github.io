@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+.back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#Home {
+    font-family: 'Comic Sans MS', 'Comic Sans';
+}
