@@ -152,6 +152,10 @@ a:visited {
     gap: 1em;
 }
 
+.imgcontainer img {
+    height: auto;
+}
+
 .section {
     margin-top: 50px;
     margin-bottom: 50px;
