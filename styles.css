@@ -21,3 +21,13 @@ a:visited {
 @supports (font-variation-settings: normal) {
   :root { font-family: InterVariable, sans-serif; }
 }
+
+/* individual styles */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1em;
+}
