@@ -13,14 +13,51 @@
 
 <!--- Code above this line will not be displayed on the browser -->
     <body>
-        <h1>Attention Economy</h1>
-        <img src="images/mebeingeatenaaahhh.jpg" alt="me inside a giant shark mouth display looking scared" style="height: 30rem;"/>
-        <h2>Hello! I'm <b>Josie</b>, a student studying <i>Computer Science, Math, Game Design, and Digital Studies</i> at UW-Madison.</h2>
-        <p>Outside of these interests, I love to draw, read, play video games, listen to music, spend time outside and hang out with my dog.</p>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="aboutme.html">About Me</a> |
-            <a href="garagesale.html">Garage Sale</a>
-        </nav>
+        <header>
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/josieronklogo.png" alt="A pixel art logo that says 'Josie Ronk'">
+                </a>
+                <ul>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="gallery.html">Projects</a>
+                        <ul>
+                            <li><a href="garagesale.html">Garage Sale</a></li>
+                            <li><a href="attentionecon.html">Attention Economy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>Attention Economy</h1>
+            <div class="intro">
+                <p class ="introtext">
+                    I created this project as a part of a Digital Media Literacy course last semester, with the aim of better understanding some of the underlying systems of the digital media ecosystem. I was also excited to design multimedia elements to showcase my findings-- the goal of the assignment was to create a mock social media campaign, so I created a slide carousel, flowchart, and short video for this project.
+                </p>
+                <figure class ="introimage">
+                    <img src="images/1.png" alt="A slide from a presentation about the attention economy. It is titled 'Let's take back the internet' and has a design inspired by old web iconography.">
+                    <figcaption>For my slide carosuel, I wanted to evoke old web iconography to contrast this old, idealized version of the internet with what it is today.</figcaption>
+                </figure>
+            </div>
+            <div class="section">
+                <h2>Understanding the Attention Economy: a flowchart</h2>
+                <p>When researching the attention economy, I felt that there were many more elements at play than most people realize. To illustrate the web of buying, selling, harvesting and investing in information and attention that makes up the attention economy, I created this flowchart.</p>
+                <div class="imgcontainer">
+                    <img src="images/InfographicPAGE1.png" alt="A title page introducing the attention economy flowchart." width="400px">
+                    <img src="images/InfographicPAGE2.jpg" alt="A flowchart illustrating the attention economy. It shows how users, platforms, advertisers, and data brokers interact with each other in a web of buying, selling, harvesting, and investing in information and attention." width="400px">
+                </div>
+            </div><div class="section">
+                <h2>Understanding the Attention Economy: a video</h2>
+                <p>I created this video for the project with the goal of summarizing the attention economy, the motivations behind it, and how it affects users in a short, accessible video.</p>
+                <div class="imgcontainer">
+                    <iframe src="https://uwprod-my.sharepoint.com/personal/jronk_wisc_edu/_layouts/15/embed.aspx?UniqueId=80dd18ad-3616-427f-895f-c5703d6ae73e&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="attentionecon.mp4"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Made by me (Josie Ronk). Thanks for reading :D</p>
+        </footer>
     </body>
 </html>

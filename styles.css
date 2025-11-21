@@ -2,16 +2,110 @@ body {
     background-image: url(https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg);
     color: white;
     text-align: center;
+    font-size: large;
+}
+
+header {
+    width: 100%;
+    padding: 0 40px;
+    height: 80px;
+    background-image: url(https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 40px;
+}
+
+header a {
+    color:white;
+    align-self: center;
+    font-size: 1.5em;
+    margin-right: 40px;
+}
+
+header .logo {
+    height: 80px;
+    width: fit-content;
+    align-self: center;
+}
+
+header .logo img {
+    height: 100%;
+    width: auto;
+}
+
+header ul {
+    height: 100%;
+    padding-left: 40px;
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+header ul li {
+    position: relative;
+}
+
+header ul li a {
+    display: block;
+    padding: 0 15px;
+    height: 100%;
+    line-height: 80px;
+    transition: all ease-in-out 0.2s;
+}
+
+header ul li a:hover {
+    color: #8FCFCC;
+    text-decoration-color: #8FCFCC;
+}
+
+header ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    text-align: left;
+    left: -40px;
+    transition: all ease-in-out 0.2s;
+}
+
+ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+header ul li ul li a{
+    background-image: url(https://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg);
+    white-space: nowrap;
+}
+
+footer {
+    font-size: 0.6em;
+    margin: 50px 50px;
+    color: #D3D3D3;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+a {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: #8FCFCC;
 }
 
 a:visited {
-    color: fuchsia;
-}
-
-.back {
-    position: fixed;
-    top: 10px;
-    left: 10px;
+    text-decoration-color: #AC8FCF;
 }
 
 :root {
@@ -22,12 +116,90 @@ a:visited {
   :root { font-family: InterVariable, sans-serif; }
 }
 
-/* individual styles */
+/* individual divs */
 
-.container {
+.content {
+    margin: 0px 400px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.introtext {
+    font-size: 1.75em;
+    align-self: center;
+    width: 50%
+}
+
+.introimage {
+    width:50%;
+    align-self: center;
+}
+
+.introimage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgcontainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: flex-start;
     gap: 1em;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*homepage divs*/
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    gap: 2em;
+}
+
+.hometext {
+    font-size: 1.75em;
+    align-self: center;
+}
+
+.homeimage {
+    align-self: center;
+    object-fit: contain;
+}
+
+.homeimage img {
+    max-width: 300px;
+    height: auto;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #8FCFCC;
+    gap: 1em;
+    padding: 20px 40px;
+    margin: 50px 0px;
+}
+
+.projectimage {
+    align-self: center;
+    object-fit: contain;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
 }

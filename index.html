@@ -9,13 +9,55 @@
         <script src=""></script>
     </head>
     <body>
-        <h1 id="Home">HOME</h1>
-        <img src="images/josiepng.PNG" alt="A pixel art portrait of me that I made.">
-        <h2>Hello world! I'm Josie, and this is my website.</h2>
-        <nav>
-            <a href="aboutme.html">About Me</a> |
-            <a href="garagesale.html">Garage Sale</a> |
-            <a href="gallery.html">Attention Economy</a>
-        </nav>
+        <header>
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/josieronklogo.png" alt="A pixel art logo that says 'Josie Ronk'">
+                </a>
+                <ul>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="gallery.html">Projects</a>
+                        <ul>
+                            <li><a href="garagesale.html">Garage Sale</a></li>
+                            <li><a href="attentionecon.html">Attention Economy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1 id="Home">Welcome!</h1>
+            <div class="home">
+                <div class="homeimage">
+                    <img src="images/josiepng.PNG" alt="A pixel art portrait of me that I made.">
+                </div>
+                <div class="hometext">
+                    <p>Hello world! I'm Josie, and this is my website.</p>
+                    <p>Here you can find information about me and what I'm interested in, as well as examples of projects I've worked on.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="projecttext">
+                    <h2><a href="garagesale.html">Garage Sale</a></h2>
+                    <p>Garage sale is a cozy exploration game that I worked on as an artist, designer, and writer. Check out the <a href="garagesale.html">project page</a> to see more!</p>
+                </div>
+                <div class="projectimage">
+                    <img src="images/garagesalelogoside.png" alt="Garage Sale's logo, designed by Zoe Axelrod, overlayed on a green background next to an illustration of Juniper, the game's protagonist.">
+                </div>
+            </div>
+            <div class="project">
+                <div class="projecttext">
+                    <h2><a href="attentionecon.html">Understanding the Attention Economy</a></h2>
+                    <p>I created this multimedia project exploring the attention economy and its impact on users as a part of a Digital Media Literacy course last semester. Check it out <a href="attentionecon.html">here</a>.</p>
+                </div>
+                <div class="projectimage">
+                    <img src="images/1.png" alt="A slide from a presentation about the attention economy. It is titled 'Let's take back the internet' and has a design inspired by old web iconography.">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Made by me (Josie Ronk). Thanks for reading :D</p>
+        </footer>
     </body>
 </html>
